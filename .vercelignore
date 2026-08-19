@@ -1,0 +1,8 @@
+.env
+.env*
+!.env.example
+node_modules
+/trash-can/
+/supabase/.temp/
+/.claude/
+.git
