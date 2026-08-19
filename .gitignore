@@ -1,0 +1,30 @@
+.env
+node_modules
+
+# Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# 기타
+.DS_Store
+*.pem
+npm-debug.log*
+
+.vercel
+.env*
+!.env.example
+
+# 삭제 대기 폴더 (CLAUDE.md 규칙: 삭제 대신 이동만, 저장소에는 올리지 않음)
+/trash-can/
+
+# Supabase CLI 로컬 임시 상태
+/supabase/.temp/
+
+# Claude Code 로컬 설정/에이전트 메모리 (앱 코드 아님)
+/.claude/
